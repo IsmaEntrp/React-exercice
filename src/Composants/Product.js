@@ -14,7 +14,7 @@ function Product(props)
             <p className="Product-title"> {titlecut(props.name,50)} </p>
             <p className="Product-enstock">En stock : {props.enstock}</p>
             <p className="Product-price">{props.price} $</p>
-            <button className="Product-button-buy"> Acheter </button>
+            <button className="Product-button-buy"> Ajouter au panier </button>
         </div>
     )
 

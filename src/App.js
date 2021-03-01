@@ -3,6 +3,7 @@ import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Productpage from './Composants/Productpage';
 import Navbar from './Composants/Navbar';
+import Chekoutpage from './Chekoutpage';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           </Route>
 
           <Route exact path = "/Checkout">
-            <h1>chekout</h1>
+            <Chekoutpage/>
           </Route>
           
           <Route >

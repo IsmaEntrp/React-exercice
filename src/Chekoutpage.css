@@ -1,0 +1,42 @@
+.Checkoutpage-subtotal
+{
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+    border:1px solid black;
+    background-image: url("https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 100px;
+    right: 50px;
+}
+
+.Checkoutpage-subtotal-total
+{
+    margin-top: 200px;
+    transform: translateY(-50px);
+    text-align: center;
+    font-size: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Checkoutpage-subtotal-button:hover
+{
+    cursor: pointer;
+    background-color: rgb(241, 229, 158);
+    transform: translateY(-50px) scale(1.1);
+    
+    transition: 450ms;
+}
+.Checkoutpage-subtotal-button
+{
+    transform: translateY(-50px);
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(236, 217, 104);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
