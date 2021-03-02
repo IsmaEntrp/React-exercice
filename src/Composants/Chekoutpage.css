@@ -19,8 +19,8 @@
     text-align: center;
     font-size: 50px;
     display: block;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
 }
 .Checkoutpage-subtotal-button:hover
 {
