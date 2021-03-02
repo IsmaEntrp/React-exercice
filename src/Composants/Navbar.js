@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom'
 import './Navbar.css'
+import React, {useContext} from 'react'
+import {ListProductContext} from '../Context/context'
 
 function Navbar(props)
 {
   
+    const [ , [Panier, usePanier]] = useContext(ListProductContext);
 
     return(
         <div className="Navbar-container">
@@ -20,7 +23,7 @@ function Navbar(props)
             
             <Link className="Navbar-productpage" to="/Checkout">
                 <div className="Navbar-Panier">
-                    <p>Panier : {0}</p>
+                    <p>Panier : {Panier.length}</p>
                 </div>
             </Link>
             

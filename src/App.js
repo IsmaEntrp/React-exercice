@@ -3,7 +3,7 @@ import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Productpage from './Composants/Productpage';
 import Navbar from './Composants/Navbar';
-import Chekoutpage from './Chekoutpage';
+import Chekoutpage from './Composants/Chekoutpage';
 
 function App() {
   return (
