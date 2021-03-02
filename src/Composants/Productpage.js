@@ -17,6 +17,7 @@ const Productpage = ()=>
                         price = {product.price}
                         img= {product.img}
                         enstock = {product.enstock}
+                        id = {product.id}
                          />
                         )}
             )}

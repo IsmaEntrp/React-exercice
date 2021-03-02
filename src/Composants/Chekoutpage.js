@@ -22,12 +22,13 @@ function Chekoutpage()
             <div className="chekout-list-product">
                 {Panier.map((product)=>{return(
                         <Product 
-                        key={product.id}
+                        key= {product.id}
                         name ={product.name} 
                         price = {product.price}
                         img= {product.img}
                         enstock = {product.enstock}
-                         />
+                        id = {product.id}
+                        checkout />
                         )})}
             </div>
             <div className="Checkoutpage-subtotal">
